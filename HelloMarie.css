@@ -21,10 +21,8 @@ header {
 }
 
 img {
-   /* ne depasse pas la largeur du conteneur dans lequel tu est */
-   max-width: 100%;
-   /* adapte la hauteur à ta largeur */
-   height: auto;
+max-width: 100%;
+height: auto;
 }
 
 header img {
@@ -43,7 +41,6 @@ article {
 }
 
 .container {
-   /* la largeur du contenu ne dapasse 650px */
    max-width: 65ch;
    margin-left: auto;
    margin-right: auto;
@@ -63,9 +60,6 @@ footer {
       filter: none;
    }
 }
-
-/* a partir de 640px */
-/* @media (min-width: 640px) {*/
 @media screen and (min-width: 640px) {
    body {
       padding: var(--space);
